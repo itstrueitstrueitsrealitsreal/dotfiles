@@ -21,6 +21,6 @@ M.plugins = "plugins"
 --       tabufline = {
 --          lazyload = false
 --      }
--- }
+--}
 
 return M
