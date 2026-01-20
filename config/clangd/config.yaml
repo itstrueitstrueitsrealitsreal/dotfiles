@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - -std=c++23
+    - -stdlib=libc++             # Use Apple’s C++ standard library
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Wshadow
+    - -Wconversion
+    - -fsanitize=address,undefined
+    - [-isystem, "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"]
+    - [-isystem, "/opt/homebrew/include"]
+
